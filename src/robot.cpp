@@ -6,7 +6,13 @@
 #include "sensorimotor_interface.h"
 #include <stdio.h>
 #include <memory.h>
-#include <sys/timerfd.h>
+#ifdef __APPLE__
+    // MacOS 
+    #include <dispatch/dispatch.h>
+#else
+    // Linux 
+    #include <sys/timerfd.h>
+#endif
 
 /**
  * Constructor method of class Robot.
