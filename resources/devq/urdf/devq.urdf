@@ -49,7 +49,7 @@
 		<collision>
 			<origin xyz="0.0 -0.0385 0.0" rpy="1.5707963267948966 0.0 0.0"/>
 			<geometry>
-				<cylinder length="0.077" radius="0.04"/>
+				<cylinder length="0.05" radius="0.04"/>
 			</geometry>
 		</collision>
 	</link>
@@ -57,7 +57,7 @@
 		<parent link="front_right_abad_link"/>
 		<child link="front_right_hip_link"/>
 		<origin rpy="0 0 0" xyz="0.0 -0.077 0.0"/>
-		<axis xyz="0 -1 0 0"/>
+		<axis xyz="0 -1 0"/>
 		<limit lower="-3.141" upper="2.792" effort="9.1" velocity="16.290000000000003"/>
 		<dynamics damping="0" friction="0"/>
 	</joint>
@@ -77,9 +77,9 @@
 			</material>
 		</visual>
 		<collision>
-			<origin xyz="0 0 -0.075" rpy="0 0 0"/>
+			<origin xyz="0 0 -0.05" rpy="0 0 0"/>
 			<geometry>
-				<box size="0.04 0.025 0.068"/>
+				<box size="0.04 0.025 0.12"/>
 			</geometry>
 		</collision>
 	</link>
@@ -174,7 +174,7 @@
 		<collision>
 			<origin xyz="0.0 0.0385 0.0" rpy="1.5707963267948966 0.0 0.0"/>
 			<geometry>
-				<cylinder length="0.077" radius="0.04"/>
+				<cylinder length="0.05" radius="0.04"/>
 			</geometry>
 		</collision>
 	</link>
@@ -182,7 +182,7 @@
 		<parent link="front_left_abad_link"/>
 		<child link="front_left_hip_link"/>
 		<origin rpy="0 0 0" xyz="0.0 0.077 0.0"/>
-		<axis xyz="0 -1 0 0"/>
+		<axis xyz="0 -1 0"/>
 		<limit lower="-3.141" upper="2.792" effort="9.1" velocity="16.290000000000003"/>
 		<dynamics damping="0" friction="0"/>
 	</joint>
@@ -202,9 +202,9 @@
 			</material>
 		</visual>
 		<collision>
-			<origin xyz="0 0 -0.075" rpy="0 0 0"/>
+			<origin xyz="0 0 -0.05" rpy="0 0 0"/>
 			<geometry>
-				<box size="0.04 0.025 0.068"/>
+				<box size="0.04 0.025 0.12"/>
 			</geometry>
 		</collision>
 	</link>
@@ -299,7 +299,7 @@
 		<collision>
 			<origin xyz="0.0 -0.0385 0.0" rpy="1.5707963267948966 0.0 0.0"/>
 			<geometry>
-				<cylinder length="0.077" radius="0.04"/>
+				<cylinder length="0.05" radius="0.04"/>
 			</geometry>
 		</collision>
 	</link>
@@ -307,7 +307,7 @@
 		<parent link="hind_right_abad_link"/>
 		<child link="hind_right_hip_link"/>
 		<origin rpy="0 0 0" xyz="0.0 -0.077 0.0"/>
-		<axis xyz="0 -1 0 0"/>
+		<axis xyz="0 -1 0"/>
 		<limit lower="-3.141" upper="2.792" effort="9.1" velocity="16.290000000000003"/>
 		<dynamics damping="0" friction="0"/>
 	</joint>
@@ -327,9 +327,9 @@
 			</material>
 		</visual>
 		<collision>
-			<origin xyz="0 0 -0.075" rpy="0 0 0"/>
+			<origin xyz="0 0 -0.05" rpy="0 0 0"/>
 			<geometry>
-				<box size="0.04 0.025 0.068"/>
+				<box size="0.04 0.025 0.12"/>
 			</geometry>
 		</collision>
 	</link>
@@ -424,7 +424,7 @@
 		<collision>
 			<origin xyz="0.0 0.0385 0.0" rpy="1.5707963267948966 0.0 0.0"/>
 			<geometry>
-				<cylinder length="0.077" radius="0.04"/>
+				<cylinder length="0.05" radius="0.04"/>
 			</geometry>
 		</collision>
 	</link>
@@ -432,7 +432,7 @@
 		<parent link="hind_left_abad_link"/>
 		<child link="hind_left_hip_link"/>
 		<origin rpy="0 0 0" xyz="0.0 0.077 0.0"/>
-		<axis xyz="0 -1 0 0"/>
+		<axis xyz="0 -1 0"/>
 		<limit lower="-3.141" upper="2.792" effort="9.1" velocity="16.290000000000003"/>
 		<dynamics damping="0" friction="0"/>
 	</joint>
@@ -452,9 +452,9 @@
 			</material>
 		</visual>
 		<collision>
-			<origin xyz="0 0 -0.075" rpy="0 0 0"/>
+			<origin xyz="0 0 -0.05" rpy="0 0 0"/>
 			<geometry>
-				<box size="0.04 0.025 0.068"/>
+				<box size="0.04 0.025 0.12"/>
 			</geometry>
 		</collision>
 	</link>
